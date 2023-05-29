@@ -156,10 +156,6 @@ body {
   background: #ec5242;
 }
 
-.section-2 .desktop-p {
-  display: none;
-}
-
 .section-2 .logo {
   max-height: 114px;
   max-width: 270px;
@@ -230,6 +226,47 @@ body {
   background-size: cover;
 }
 
+.contact {
+  position: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 5vw;
+  background: #272a31;
+  color: white;
+}
+
+.section-4 .h2-red-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-4 .red-line {
+  height: 1px;
+  width: 50px;
+  background-color: #ec5242;
+}
+
+.section-4 .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-4 .image {
+  height: 50px;
+  width: 150px;
+}
+
 /* Footer Section */
 
 .footer {
@@ -239,14 +276,13 @@ body {
   justify-content: center;
   gap: 30px;
   padding: 50px 5vw;
-  background: #272a31;
+  background: #fff;
   color: #9b9b9b;
 }
 
 .footer .logo {
   height: 30px;
   width: 160px;
-  filter: brightness(0) invert(1);
 }
 
 .footer .text-inner-container {
@@ -256,6 +292,7 @@ body {
   gap: 5px;
   white-space: nowrap;
   font-size: 13px;
+  color: #3b3e45;
 }
 
 .footer .licence {
@@ -364,8 +401,8 @@ body {
     border: 1px solid #e3e2e2;
     padding: 20px;
     line-height: 25px;
-    font-size: 12px;
-    color: #9b9b9b;
+    font-size: 14px;
+    color: #7a7a7a;
     max-width: 715px;
   }
 
@@ -378,7 +415,7 @@ body {
   }
 
   .section-1 .email {
-    color: #333;
+    color: #5f5f5f;
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 5px;
@@ -428,6 +465,10 @@ body {
     font-size: 20px;
   }
 
+  .section-4 {
+    display: none;
+  }
+
   /* Footer */
 
   .footer {
@@ -437,6 +478,7 @@ body {
     align-items: center;
     gap: 5vw;
     padding: 50px 15vw;
+    background-color: #2e2e2e;
   }
 
   .footer .logo {
@@ -449,7 +491,9 @@ body {
     flex-direction: column;
     gap: 10px;
     max-width: 550px;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
   }
 
   .footer .text-inner-container {
@@ -457,6 +501,7 @@ body {
     flex-direction: row;
     justify-content: left;
     gap: 10px;
+    color: #fff;
   }
 
   .footer .licence {
