@@ -431,9 +431,10 @@ body {
 
   .section-1 .h1 {
     color: #ec5242;
-    font-size: 60px;
+    font-size: 70px;
     line-height: 60px;
     max-width: 50vw;
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .section-1 .p {
