@@ -108,6 +108,7 @@ body {
   font-size: 40px;
   line-height: 40px;
   margin-bottom: 20px;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .section-1 .p {
@@ -402,7 +403,7 @@ body {
     padding: 20px;
     line-height: 25px;
     font-size: 14px;
-    color: #7a7a7a;
+    color: #d3d3d3;
     max-width: 715px;
   }
 
@@ -420,7 +421,7 @@ body {
     text-underline-position: under;
     padding-bottom: 5px;
     font-size: larger;
-    font-weight: 500;
+    font-weight: bold;
     margin-top: -10px;
   }
 
@@ -493,7 +494,6 @@ body {
     max-width: 550px;
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
   }
 
   .footer .text-inner-container {
